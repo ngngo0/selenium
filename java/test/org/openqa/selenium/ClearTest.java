@@ -107,7 +107,10 @@ class ClearTest extends JupiterTestBase {
     shouldBeAbleToClearInput(By.name("number_input"), "0");
   }
 
-
+  @Test
+  void shouldBeAbleToClearNumberInput() {
+    shouldBeAbleToClearInput(By.name("number_input"), "100000000000");
+  }
 
   @Test
   void shouldBeAbleToClearEmailInput() {
