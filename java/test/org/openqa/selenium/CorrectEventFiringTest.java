@@ -419,6 +419,40 @@ class CorrectEventFiringTest extends JupiterTestBase {
   }
 
   @Test
+  @NotYetImplemented(SAFARI)
+  public void testFocusSendKeysBlur() {
+    assumeFalse(browserNeedsFocusOnThisOs(driver));
+
+    driver.get(pages.javascriptPage);
+    WebElement element = driver.findElement(By.id("theworks"));
+    element.click();
+
+    // Wait until focused
+    boolean focused = false;
+    WebElement result = driver.findElement(By.id("result"));
+    for (int i = 0; i < 5; ++i) {
+      String fired = result.getText();
+      if (fired.contains("focus")) {
+        focused = true;
+        break;
+      }
+      try {
+        Thread.sleep(200);
+      } catch (InterruptedException e) {
+        throw new RuntimeException(e);
+      }
+    }
+    if (!focused) {
+      fail("Clicking on element didn't focus it in time - can't proceed so failing");
+    }
+
+    element.sendKeys("a");
+    WebElement element2 = driver.findElement(By.id("changeable"));
+    element2.sendKeys("bar");
+    assertEventFired("blur", driver);
+  }
+
+  @Test
   @NotYetImplemented(IE)
   @NotYetImplemented(SAFARI)
   public void testClickingAnUnfocusableChildShouldNotBlurTheParent() {
