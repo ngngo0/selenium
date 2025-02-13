@@ -415,9 +415,8 @@ class CorrectEventFiringTest extends JupiterTestBase {
     }
 
     element.sendKeys("a");
-    assertEventNotFired("blur", driver);
+    assertEventNotFired("blur", driver); //Blur is not in the list
   }
-
   @Test
   @NotYetImplemented(SAFARI)
   public void testFocusSendKeysBlur() {
@@ -449,7 +448,7 @@ class CorrectEventFiringTest extends JupiterTestBase {
     element.sendKeys("a");
     WebElement element2 = driver.findElement(By.id("changeable"));
     element2.sendKeys("bar");
-    assertEventFired("blur", driver);
+    assertEventFired("blur", driver); // Blur should be back on the list 
   }
 
   @Test
@@ -564,3 +563,17 @@ class CorrectEventFiringTest extends JupiterTestBase {
                 + "mouseup in under (handled by body)");
   }
 }
+
+@Test
+  @NotYetImplemented(IE)
+  @NotYetImplemented(SAFARI)
+  public void testClickingAnUnfocusableElement() {
+    driver.get(pages.javascriptPage);
+    
+    WebElement element = driver.findElement(By.id("disabledButton"));
+    element.click();
+
+    assertEventNotFired("focus", driver);
+    assertEventFired("mouseover", driver);
+    assertEventFired("mousemove", driver);
+  }

@@ -164,6 +164,18 @@
             onmouseover="register('mouseover ')"
             onmousemove="register('mousemove ')"
     >
+    <button type="button" id="disabledButton"
+    onfocus="appendMessage('focus')"
+         onkeydown="appendMessage('keydown')"
+         onkeypress="appendMessage('keypress')"
+         onkeyup="appendMessage('keyup')"
+         onblur="appendMessage('blur')"
+         onclick="appendMessage('click')"
+         onmousedown="appendMessage('mousedown ')"
+         onmouseup="appendMessage('mouseup ')"
+        onmouseover="register('mouseover ')"
+        onmousemove="register('mousemove ')"
+>
         <b>Go somewhere</b>
     </button>
     <button type="submit" id="submittingButton"><emph>submit</emph></button>

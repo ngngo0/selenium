@@ -5,7 +5,7 @@ USER root
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 32EE5355A6BC6E42
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 32EE5355A6BC6E42
 
 RUN apt-get update -qqy && apt-get install -y wget curl gnupg2
 
