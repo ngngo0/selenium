@@ -98,17 +98,17 @@ class ClearTest extends JupiterTestBase {
   }
 
   @Test
-  void shouldBeAbleToClearNumberInput() {
+  void shouldBeAbleToClearNumberInputNeg() {
     shouldBeAbleToClearInput(By.name("number_input"), "-1");
   }
 
   @Test
-  void shouldBeAbleToClearNumberInput() {
+  void shouldBeAbleToClearNumberInputZero() {
     shouldBeAbleToClearInput(By.name("number_input"), "0");
   }
 
   @Test
-  void shouldBeAbleToClearNumberInput() {
+  void shouldBeAbleToClearNumberInputBig() {
     shouldBeAbleToClearInput(By.name("number_input"), "100000000000");
   }
 
@@ -116,6 +116,22 @@ class ClearTest extends JupiterTestBase {
   void shouldBeAbleToClearEmailInput() {
     shouldBeAbleToClearInput(By.name("email_input"), "admin@localhost");
   }
+
+   @Test
+  void shouldBeAbleToClearEmailLargeInputLength() {
+    shouldBeAbleToClearInput(By.name("email_input"), "longemailaddresswithmultiplecharacters1234567890@exampleofaverylongsubdomainandlongtld.com");
+  }
+
+   @Test
+  void shouldBeAbleToClearEmailInputSpecialChar() {
+    shouldBeAbleToClearInput(By.name("email_input"), "!#$%&@example.org");
+  }
+
+   @Test
+  void shouldBeAbleToClearEmailAlphaNumeric() {
+    shouldBeAbleToClearInput(By.name("email_input"), "myemail123@example.com");
+  }
+
 
   @Test
   void shouldBeAbleToClearPasswordInput() {
@@ -156,6 +172,20 @@ class ClearTest extends JupiterTestBase {
   @Test
   public void shouldBeAbleToClearDateInput() {
     shouldBeAbleToClearInput(By.name("date_input"), "2017-11-22");
+  }
+  @Test
+  public void shouldBeAbleToClearDateInputFormat1() {
+    shouldBeAbleToClearInput(By.name("date_input"), "22/11/2017");
+  }
+
+  @Test
+  public void shouldBeAbleToClearDateInputFormat2() {
+    shouldBeAbleToClearInput(By.name("date_input"), "11-22-2017");
+  }
+
+  @Test
+  public void shouldBeAbleToClearDateInputFormat3() {
+    shouldBeAbleToClearInput(By.name("date_input"), "11-22-17");
   }
 
   @Test
