@@ -101,6 +101,7 @@ public abstract class JupiterTestBase {
 
   public void removeDriver() {
     seleniumExtension.removeDriver();
+    driver = null;
   }
 
   public String toLocalUrl(String url) {
