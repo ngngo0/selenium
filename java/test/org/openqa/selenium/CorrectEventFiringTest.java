@@ -562,9 +562,9 @@ class CorrectEventFiringTest extends JupiterTestBase {
                 + "mouseup in under (handled by under)\n"
                 + "mouseup in under (handled by body)");
   }
-}
 
-@Test
+
+  @Test
   @NotYetImplemented(IE)
   @NotYetImplemented(SAFARI)
   public void testClickingAnUnfocusableElement() {
@@ -577,3 +577,5 @@ class CorrectEventFiringTest extends JupiterTestBase {
     assertEventFired("mouseover", driver);
     assertEventFired("mousemove", driver);
   }
+
+}
