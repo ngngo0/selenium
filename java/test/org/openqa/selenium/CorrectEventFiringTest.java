@@ -415,7 +415,40 @@ class CorrectEventFiringTest extends JupiterTestBase {
     }
 
     element.sendKeys("a");
-    assertEventNotFired("blur", driver);
+    assertEventNotFired("blur", driver); //Blur is not in the list
+  }
+  @Test
+  @NotYetImplemented(SAFARI)
+  public void testFocusSendKeysBlur() {
+    assumeFalse(browserNeedsFocusOnThisOs(driver));
+
+    driver.get(pages.javascriptPage);
+    WebElement element = driver.findElement(By.id("theworks"));
+    element.click();
+
+    // Wait until focused
+    boolean focused = false;
+    WebElement result = driver.findElement(By.id("result"));
+    for (int i = 0; i < 5; ++i) {
+      String fired = result.getText();
+      if (fired.contains("focus")) {
+        focused = true;
+        break;
+      }
+      try {
+        Thread.sleep(200);
+      } catch (InterruptedException e) {
+        throw new RuntimeException(e);
+      }
+    }
+    if (!focused) {
+      fail("Clicking on element didn't focus it in time - can't proceed so failing");
+    }
+
+    element.sendKeys("a");
+    WebElement element2 = driver.findElement(By.id("changeable"));
+    element2.sendKeys("bar");
+    assertEventFired("blur", driver); // Blur should be back on the list 
   }
 
   @Test
@@ -529,4 +562,20 @@ class CorrectEventFiringTest extends JupiterTestBase {
                 + "mouseup in under (handled by under)\n"
                 + "mouseup in under (handled by body)");
   }
+
+
+  @Test
+  @NotYetImplemented(IE)
+  @NotYetImplemented(SAFARI)
+  public void testClickingAnUnfocusableElement() {
+    driver.get(pages.javascriptPage);
+    
+    WebElement element = driver.findElement(By.id("disabledButton"));
+    element.click();
+
+    assertEventNotFired("focus", driver);
+    assertEventFired("mouseover", driver);
+    assertEventFired("mousemove", driver);
+  }
+
 }
