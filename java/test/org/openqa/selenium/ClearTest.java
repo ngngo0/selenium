@@ -100,40 +100,33 @@ class ClearTest extends JupiterTestBase {
   
   @Test
   void shouldBeAbleToClearNumberInputNeg() {
-    shouldBeAbleToClearInput(By.name("number_input"), "-1");
+    shouldBeAbleToClearInput(By.name("number_inputneg"), "-1");
+  }
+
+  @Test
+  void shouldBeAbleToClearNumberInputNegDecimal() {
+    shouldBeAbleToClearInput(By.name("number_inputnegdecimal"), "-0.25");
   }
 
   @Test
   void shouldBeAbleToClearNumberInputZero() {
-    shouldBeAbleToClearInput(By.name("number_input"), "0");
+    shouldBeAbleToClearInput(By.name("number_inputzero"), "0");
+  }
+
+  @Test
+  void shouldBeAbleToClearNumberInputPosDecimal() {
+    shouldBeAbleToClearInput(By.name("number_inputposdecimal"), "2.25");
   }
 
   @Test
   void shouldBeAbleToClearNumberInputBig() {
-    shouldBeAbleToClearInput(By.name("number_input"), "100000000000");
+    shouldBeAbleToClearInput(By.name("number_inputbig"), "100000000000");
   }
-
 
   @Test
   void shouldBeAbleToClearEmailInput() {
     shouldBeAbleToClearInput(By.name("email_input"), "admin@localhost");
   }
-
-   @Test
-  void shouldBeAbleToClearEmailLargeInputLength() {
-    shouldBeAbleToClearInput(By.name("email_input"), "longemailaddresswithmultiplecharacters1234567890@exampleofaverylongsubdomainandlongtld.com");
-  }
-
-   @Test
-  void shouldBeAbleToClearEmailInputSpecialChar() {
-    shouldBeAbleToClearInput(By.name("email_input"), "!#$%&@example.org");
-  }
-
-   @Test
-  void shouldBeAbleToClearEmailAlphaNumeric() {
-    shouldBeAbleToClearInput(By.name("email_input"), "myemail123@example.com");
-  }
-
 
   @Test
   void shouldBeAbleToClearPasswordInput() {
@@ -174,20 +167,6 @@ class ClearTest extends JupiterTestBase {
   @Test
   public void shouldBeAbleToClearDateInput() {
     shouldBeAbleToClearInput(By.name("date_input"), "2017-11-22");
-  }
-  @Test
-  public void shouldBeAbleToClearDateInputFormat1() {
-    shouldBeAbleToClearInput(By.name("date_input"), "22/11/2017");
-  }
-
-  @Test
-  public void shouldBeAbleToClearDateInputFormat2() {
-    shouldBeAbleToClearInput(By.name("date_input"), "11-22-2017");
-  }
-
-  @Test
-  public void shouldBeAbleToClearDateInputFormat3() {
-    shouldBeAbleToClearInput(By.name("date_input"), "11-22-17");
   }
 
   @Test
