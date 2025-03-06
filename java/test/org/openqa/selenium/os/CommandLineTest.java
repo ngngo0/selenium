@@ -22,6 +22,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assumptions.assumeThat;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.mockito.Mockito.atLeastOnce;
+import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoInteractions;
@@ -147,6 +148,19 @@ class CommandLineTest {
             getLibraryPathPropertyName(), String.format("%s;%s", getenv("PATH"), "C:\\My\\Tools"));
   }
 
+    @Test
+    void testExecuteToOsProcess() throws InterruptedException {
+        // Create a mock OsProcess
+        OsProcess mockProcess = mock(OsProcess.class);
+        CommandLine commandLine = new CommandLine(mockProcess);
+
+    
+        commandLine.execute();
+        verify(mockProcess).executeAsync();
+        verify(mockProcess).waitFor();
+        verifyNoMoreInteractions(mockProcess);
+    }
+    
   private OsProcess spyProcess(CommandLine commandLine) {
     try {
       Field processField = CommandLine.class.getDeclaredField("process");
