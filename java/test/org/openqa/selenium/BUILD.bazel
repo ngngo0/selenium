@@ -19,6 +19,7 @@ SMALL_TESTS = [
     "print/PrintOptionsTest.java",
     "print/PageMarginTest.java",
     "print/PageSizeTest.java",
+    "KeyPressEventTest.java",
 ]
 
 java_test_suite(
@@ -57,6 +58,7 @@ java_library(
 java_selenium_test_suite(
     name = "LargeTests",
     size = "large",
+    timeout = "short",
     srcs = glob(
         ["*Test.java"],
         exclude = SMALL_TESTS,
