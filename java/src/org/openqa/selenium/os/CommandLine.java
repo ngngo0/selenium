@@ -30,11 +30,24 @@ import org.openqa.selenium.WebDriverException;
 @Deprecated
 public class CommandLine {
 
-  private final OsProcess process;
 
-  public CommandLine(String executable, String... args) {
-    process = new OsProcess(executable, args);
-  }
+  // // If OsProcess needs to be modified, you would have to modify CommandLine
+  
+  //   public CommandLine(String executable, String... args) {
+  //      process = new OsProcess(executable, args);
+  //   }
+
+    private final OsProcess process;
+
+    // Dependency Injection Constructor
+    public CommandLine(OsProcess process) {
+        this.process = process;
+    }
+
+    //Existing Constructor (Retained for Compatibility)
+    public CommandLine(String executable, String... args) {
+       this(new OsProcess(executable, args));  // Calls the new constructor
+    }
 
   /**
    * Adds the specified environment variables.
