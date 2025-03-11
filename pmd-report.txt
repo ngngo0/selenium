@@ -1,0 +1,607 @@
+java/test/org/openqa/selenium/AlertsTest.java:55:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/ByTest.java:26:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByClassName'
+java/test/org/openqa/selenium/ByTest.java:27:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByCssSelector'
+java/test/org/openqa/selenium/ByTest.java:28:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ById'
+java/test/org/openqa/selenium/ByTest.java:29:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByLinkText'
+java/test/org/openqa/selenium/ByTest.java:30:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByName'
+java/test/org/openqa/selenium/ByTest.java:31:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByPartialLinkText'
+java/test/org/openqa/selenium/ByTest.java:32:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByTagName'
+java/test/org/openqa/selenium/ByTest.java:33:	UnnecessaryImport:	Unused static import 'org.openqa.selenium.By.ByXPath'
+java/test/org/openqa/selenium/ByTest.java:100:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+java/test/org/openqa/selenium/ContentEditableTest.java:41:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/ContentEditableTest.java:58:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/CookieImplementationTest.java:556:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:79:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:227:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:227:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:227:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:237:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:237:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:237:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:247:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:247:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/CorrectEventFiringTest.java:247:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/ElementAttributeTest.java:261:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/ElementAttributeTest.java:271:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/ElementAttributeTest.java:312:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_textInput' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementAttributeTest.java:321:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_emailInput' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementAttributeTest.java:330:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_textArea' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementDomAttributeTest.java:224:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/ElementDomPropertyTest.java:135:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_textInput' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementDomPropertyTest.java:144:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_emailInput' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementDomPropertyTest.java:153:	MethodNamingConventions:	The JUnit 5 test method name 'testCanRetrieveTheCurrentValueOfATextFormField_textArea' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ElementSelectingTest.java:223:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/ExecutingAsyncJavascriptTest.java:72:	MethodNamingConventions:	The JUnit 5 test method name 'shouldBeAbleToReturnJavascriptPrimitivesFromAsyncScripts_NeitherNullNorUndefined' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ExecutingAsyncJavascriptTest.java:87:	MethodNamingConventions:	The JUnit 5 test method name 'shouldBeAbleToReturnJavascriptPrimitivesFromAsyncScripts_NullAndUndefined' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/ExecutingAsyncJavascriptTest.java:99:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/ExecutingAsyncJavascriptTest.java:108:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/ExecutingJavascriptTest.java:196:	UnusedPrivateMethod:	Avoid unused private methods such as 'compareLists(List<?>, List<?>)'.
+java/test/org/openqa/selenium/FrameSwitchingTest.java:42:	SingularField:	Perhaps 'random' could be replaced by a local variable.
+java/test/org/openqa/selenium/FrameSwitchingTest.java:48:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/FrameSwitchingTest.java:84:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/FrameSwitchingTest.java:291:	MethodNamingConventions:	The JUnit 5 test method name 'testShouldFocusOnTheReplacementWhenAFrameFollowsALinkToA_TopTargetedPage' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/JavascriptEnabledDriverTest.java:155:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/JupiterTestBaseTest.java:56:	UnusedLocalVariable:	Avoid unused local variables such as 'originalDriver'.
+java/test/org/openqa/selenium/KeyPressEventTest.java:5:	UnnecessaryImport:	Unnecessary import from the current package 'org.openqa.selenium.WebElement'
+java/test/org/openqa/selenium/MiscTest.java:37:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/PageLoadTimeOutTest.java:136:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/PageLoadingTest.java:92:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/ParallelTestRunner.java:29:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/ParallelTestRunner.java:31:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/ParallelTestRunner.java:42:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+java/test/org/openqa/selenium/PrintPageTest.java:44:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/PrintPageTest.java:54:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/PrintPageTest.java:65:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/ProxySettingTest.java:179:	UncommentedEmptyConstructor:	Document empty constructor
+java/test/org/openqa/selenium/ReferrerTest.java:117:	LambdaCanBeMethodReference:	Lambda expression could be written as a method reference: `proxyServer::stop`
+java/test/org/openqa/selenium/ReferrerTest.java:118:	LambdaCanBeMethodReference:	Lambda expression could be written as a method reference: `server1::stop`
+java/test/org/openqa/selenium/ReferrerTest.java:119:	LambdaCanBeMethodReference:	Lambda expression could be written as a method reference: `server2::stop`
+java/test/org/openqa/selenium/ReferrerTest.java:226:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/SlowLoadingPageTest.java:49:	UnnecessaryAnnotationValueElement:	Avoid the use of value in annotations when its the only element
+java/test/org/openqa/selenium/TakesScreenshotTest.java:144:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:144:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:144:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:320:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:320:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:320:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:352:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:353:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TakesScreenshotTest.java:354:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TypingTest.java:50:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TypingTest.java:54:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/TypingTest.java:58:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/WaitingConditions.java:23:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/WebNetworkTest.java:257:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/WebNetworkTest.java:393:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/WebScriptTest.java:57:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:90:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:94:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:113:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:142:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:148:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:167:	UnusedLocalVariable:	Avoid unused local variables such as 'id1'.
+java/test/org/openqa/selenium/WebScriptTest.java:168:	UnusedLocalVariable:	Avoid unused local variables such as 'id2'.
+java/test/org/openqa/selenium/WebScriptTest.java:174:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:179:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WebScriptTest.java:253:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TimeUnit': 'SECONDS' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/WindowTest.java:110:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/WindowTest.java:110:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/WindowTest.java:111:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/WindowTest.java:111:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/WindowTest.java:244:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/WindowTest.java:244:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/WindowTest.java:245:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/WindowTest.java:245:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/atoms/JavaScriptLoader.java:28:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/bidi/BiDiSessionCleanUpTest.java:33:	SingularField:	Perhaps 'driver' could be replaced by a local variable.
+java/test/org/openqa/selenium/bidi/browsingcontext/BrowsingContextTest.java:168:	UnusedLocalVariable:	Avoid unused local variables such as 'window2'.
+java/test/org/openqa/selenium/bidi/browsingcontext/BrowsingContextTest.java:178:	UnusedLocalVariable:	Avoid unused local variables such as 'window1'.
+java/test/org/openqa/selenium/bidi/browsingcontext/BrowsingContextTest.java:189:	UnusedLocalVariable:	Avoid unused local variables such as 'tab1'.
+java/test/org/openqa/selenium/bidi/browsingcontext/BrowsingContextTest.java:202:	UnusedLocalVariable:	Avoid unused local variables such as 'window2'.
+java/test/org/openqa/selenium/bidi/input/CombinedInputActionsTest.java:326:	LocalVariableNamingConventions:	The final local variable name 'ALLOWED_DEVIATION' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/bidi/input/DefaultMouseTest.java:458:	LocalVariableNamingConventions:	The final local variable name 'ALLOWED_DEVIATION' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java:58:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+java/test/org/openqa/selenium/bidi/input/DragAndDropTest.java:198:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/bidi/network/NetworkEventsTest.java:38:	SingularField:	Perhaps 'page' could be replaced by a local variable.
+java/test/org/openqa/selenium/bidi/script/CallFunctionParameterTest.java:225:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/bidi/script/CallFunctionParameterTest.java:393:	UnusedLocalVariable:	Avoid unused local variables such as 'secondTab'.
+java/test/org/openqa/selenium/bidi/script/EvaluateParametersTest.java:192:	UnusedLocalVariable:	Avoid unused local variables such as 'secondTab'.
+java/test/org/openqa/selenium/bidi/script/ScriptCommandsTest.java:184:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/bidi/script/ScriptCommandsTest.java:379:	UnusedLocalVariable:	Avoid unused local variables such as 'secondTab'.
+java/test/org/openqa/selenium/bidi/script/ScriptCommandsTest.java:534:	UnusedLocalVariable:	Avoid unused local variables such as 'secondTab'.
+java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java:125:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java:336:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/bidi/storage/StorageCommandsTest.java:371:	UnusedPrivateMethod:	Avoid unused private methods such as 'someTimeInTheFuture()'.
+java/test/org/openqa/selenium/build/BazelBuild.java:46:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/build/BazelBuild.java:60:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/build/BazelBuild.java:72:	ControlStatementBraces:	This statement should have braces
+java/test/org/openqa/selenium/build/BazelBuild.java:78:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+java/test/org/openqa/selenium/build/Build.java:47:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/build/Build.java:90:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/build/Build.java:109:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+java/test/org/openqa/selenium/build/Build.java:112:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+java/test/org/openqa/selenium/build/DevMode.java:24:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/build/InProject.java:31:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/chrome/ChromeDriverFunctionalTest.java:109:	LocalVariableNamingConventions:	The local variable name 'CLIPBOARD_READ' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/chrome/ChromeDriverFunctionalTest.java:111:	LocalVariableNamingConventions:	The local variable name 'CLIPBOARD_WRITE' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/chrome/ChromeDriverServiceTest.java:40:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/devtools/CdpFacadeTest.java:78:	UnusedLocalVariable:	Avoid unused local variables such as 'interceptor'.
+java/test/org/openqa/selenium/devtools/ConsoleEventsTest.java:76:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorRestTest.java:91:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorRestTest.java:128:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorRestTest.java:165:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorRestTest.java:202:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorRestTest.java:239:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorTest.java:198:	UnusedLocalVariable:	Avoid unused local variables such as 'interceptor'.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorTest.java:224:	UnusedLocalVariable:	Avoid unused local variables such as 'networkInterceptor'.
+java/test/org/openqa/selenium/devtools/NetworkInterceptorTest.java:246:	UnusedLocalVariable:	Avoid unused local variables such as 'networkInterceptor'.
+java/test/org/openqa/selenium/edge/EdgeDriverFunctionalTest.java:52:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/edge/EdgeDriverFunctionalTest.java:53:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/edge/EdgeDriverServiceTest.java:40:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/environment/GlobalTestEnvironment.java:23:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/environment/webserver/AppServerTestBase.java:134:	LocalVariableNamingConventions:	The local variable name 'FILE_CONTENTS' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/environment/webserver/CookieHandler.java:164:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/environment/webserver/GeneratedJsTestHandler.java:43:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/environment/webserver/NettyAppServer.java:68:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/environment/webserver/Page.java:59:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+java/test/org/openqa/selenium/environment/webserver/PageHandler.java:33:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/environment/webserver/SleepingHandler.java:55:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/environment/webserver/UploadHandler.java:72:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/firefox/ExecutableTest.java:42:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/firefox/FirefoxAssumptions.java:22:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/firefox/FirefoxDriverConcurrentTest.java:66:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/firefox/FirefoxDriverConcurrentTest.java:117:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/FirefoxDriverConcurrentTest.java:163:	ControlStatementBraces:	This statement should have braces
+java/test/org/openqa/selenium/firefox/FirefoxDriverConcurrentTest.java:164:	ControlStatementBraces:	This statement should have braces
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:48:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:48:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:61:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:61:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:74:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:74:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:90:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/firefox/FirefoxDriverPreferenceTest.java:90:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/FirefoxDriverTest.java:121:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+java/test/org/openqa/selenium/firefox/FirefoxDriverTest.java:292:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/firefox/FirefoxProfileTest.java:201:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+java/test/org/openqa/selenium/firefox/GeckoDriverServiceTest.java:36:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:54:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:55:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:56:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:57:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:61:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:67:	MethodNamingConventions:	The JUnit 5 test method name 'parsePreferences_boolean' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:68:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:75:	MethodNamingConventions:	The JUnit 5 test method name 'parsePreferences_integer' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:76:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:83:	MethodNamingConventions:	The JUnit 5 test method name 'parsePreferences_string' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:89:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:104:	MethodNamingConventions:	The JUnit 5 test method name 'parsePreferences_multiline' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:105:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/firefox/PreferencesTest.java:117:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:178:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:178:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:178:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:210:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:211:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/firefox/TakesFullPageScreenshotTest.java:212:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:42:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:55:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:58:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:105:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:120:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:126:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:168:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:172:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/AnnotatedConfigTest.java:176:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/config/ConfigTest.java:122:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/grid/distributor/AddingNodesTest.java:455:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/distributor/AddingNodesTest.java:498:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/distributor/DistributorTest.java:176:	UnusedLocalVariable:	Avoid unused local variables such as 'argleBlarg'.
+java/test/org/openqa/selenium/grid/distributor/DrainTest.java:73:	UnusedLocalVariable:	Avoid unused local variables such as 'stopHub'.
+java/test/org/openqa/selenium/grid/distributor/DrainTest.java:163:	UnusedLocalVariable:	Avoid unused local variables such as 'stopHub'.
+java/test/org/openqa/selenium/grid/distributor/SessionSchedulingTest.java:314:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/distributor/local/LocalDistributorTest.java:241:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/distributor/local/LocalDistributorTest.java:437:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/distributor/local/LocalDistributorTest.java:490:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:115:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:142:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:191:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:228:	LooseCoupling:	Avoid using implementation types like 'ImmutableSet'; use the interface instead
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:294:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/distributor/selector/DefaultSlotSelectorTest.java:316:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/graphql/GraphqlHandlerTest.java:86:	FinalFieldCouldBeStatic:	This final field could be made static
+java/test/org/openqa/selenium/grid/graphql/GraphqlHandlerTest.java:98:	UncommentedEmptyConstructor:	Document empty constructor
+java/test/org/openqa/selenium/grid/gridui/Urls.java:24:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/node/NodeTest.java:133:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/node/NodeTest.java:151:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Duration': 'ofSeconds' is already in scope
+java/test/org/openqa/selenium/grid/node/NodeTest.java:340:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/node/NodeTest.java:702:	LocalVariableNamingConventions:	The local variable name 'DOWNLOAD_RSP_VALIDATOR' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/grid/node/NodeTest.java:714:	LocalVariableNamingConventions:	The local variable name 'TRIGGER_LIST_FILES' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/grid/node/NodeTest.java:915:	UnusedPrivateMethod:	Avoid unused private methods such as 'createFile(String, File)'.
+java/test/org/openqa/selenium/grid/node/config/NodeOptionsTest.java:314:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/node/config/NodeOptionsTest.java:561:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/node/config/NodeOptionsTest.java:610:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/node/config/NodeOptionsTest.java:639:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/node/config/NodeOptionsTest.java:773:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/grid/node/config/SessionCapabilitiesMutatorTest.java:37:	SingularField:	Perhaps 'sessionCapabilitiesMutator' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/node/config/SessionCapabilitiesMutatorTest.java:38:	SingularField:	Perhaps 'stereotype' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/node/config/SessionCapabilitiesMutatorTest.java:39:	SingularField:	Perhaps 'capabilities' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/node/local/LocalNodeTest.java:202:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/router/DeploymentTypes.java:322:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/router/DistributedCdpTest.java:112:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/EndToEndTest.java:140:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/grid/router/EndToEndTest.java:156:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/router/JmxTest.java:89:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:137:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:192:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:239:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:309:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:313:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/router/JmxTest.java:317:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/router/JmxTest.java:321:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/router/JmxTest.java:325:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/grid/router/JmxTest.java:330:	LooseCoupling:	Avoid using implementation types like 'AttributeList'; use the interface instead
+java/test/org/openqa/selenium/grid/router/JmxTest.java:350:	UnusedPrivateMethod:	Avoid unused private methods such as 'assertNumberAttribute(Object, long)'.
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:226:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:229:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:233:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:237:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:240:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.security.cert': 'X509Certificate' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:241:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.security.cert': 'X509Certificate' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:245:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:249:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.security.cert': 'X509Certificate' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/grid/router/ProxyWebsocketTest.java:249:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/router/ReverseProxyEndToEndTest.java:136:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/grid/router/ReverseProxyEndToEndTest.java:151:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/router/SessionCleanUpTest.java:375:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/grid/router/SessionCleanUpTest.java:392:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/grid/router/SessionQueueGridTest.java:160:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/SessionQueueGridTest.java:194:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/SessionQueueGridTest.java:246:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/SessionQueueGridWithTimeoutTest.java:79:	SingularField:	Perhaps 'registrationSecret' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/router/SessionQueueGridWithTimeoutTest.java:124:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/router/SessionQueueGridWithTimeoutTest.java:159:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/SessionQueueGridWithTimeoutTest.java:198:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/grid/router/StressTest.java:117:	UnusedLocalVariable:	Avoid unused local variables such as 'future'.
+java/test/org/openqa/selenium/grid/sessionmap/SessionMapTest.java:57:	SingularField:	Perhaps 'client' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/sessionmap/jdbc/JdbcBackedSessionMapTest.java:54:	CloseResource:	Ensure that resources like this Statement object are closed after use
+java/test/org/openqa/selenium/grid/sessionmap/jdbc/JdbcBackedSessionMapTest.java:83:	UnusedLocalVariable:	Avoid unused local variables such as 'sessions'.
+java/test/org/openqa/selenium/grid/sessionmap/redis/RedisBackedSessionMapTest.java:47:	SingularField:	Perhaps 'tracer' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/sessionmap/redis/RedisBackedSessionMapTest.java:48:	SingularField:	Perhaps 'uri' could be replaced by a local variable.
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:212:	UnusedLocalVariable:	Avoid unused local variables such as 'httpResponse'.
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:231:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:242:	UnusedLocalVariable:	Avoid unused local variables such as 'sessionResponse'.
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:261:	UnusedLocalVariable:	Avoid unused local variables such as 'httpResponse'.
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:330:	UnusedLocalVariable:	Avoid unused local variables such as 'capabilities'.
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:334:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:343:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/sessionqueue/local/LocalNewSessionQueueTest.java:387:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/grid/web/ClassPathResourceTest.java:44:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/web/ClassPathResourceTest.java:47:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/grid/web/TeeReaderTest.java:34:	CloseResource:	Ensure that resources like this StringReader object are closed after use
+java/test/org/openqa/selenium/ie/InternetExplorerDriverServiceTest.java:36:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/interactions/CombinedInputActionsTest.java:301:	LocalVariableNamingConventions:	The final local variable name 'ALLOWED_DEVIATION' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/interactions/DefaultKeyboardTest.java:312:	ControlStatementBraces:	This statement should have braces
+java/test/org/openqa/selenium/interactions/DefaultMouseTest.java:419:	LocalVariableNamingConventions:	The final local variable name 'ALLOWED_DEVIATION' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/interactions/DragAndDropTest.java:46:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+java/test/org/openqa/selenium/interactions/DragAndDropTest.java:187:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/interactions/PenPointerTest.java:448:	LocalVariableNamingConventions:	The final local variable name 'ALLOWED_DEVIATION' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/interactions/PointerInputTest.java:70:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/interactions/PointerInputTest.java:74:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/interactions/WheelInputTest.java:116:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/interactions/WheelInputTest.java:121:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/io/CircularOutputStreamTest.java:100:	CloseResource:	Ensure that resources like this PrintStream object are closed after use
+java/test/org/openqa/selenium/io/FileHandlerTest.java:54:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+java/test/org/openqa/selenium/io/TemporaryFilesystemTest.java:57:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+java/test/org/openqa/selenium/io/ZipTest.java:99:	CloseResource:	Ensure that resources like this ZipOutputStream object are closed after use
+java/test/org/openqa/selenium/javascript/ClosureTestStatement.java:57:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/javascript/JavaScriptAssertionError.java:20:	DoNotExtendJavaLangError:	Exceptions should not extend java.lang.Error
+java/test/org/openqa/selenium/javascript/JavaScriptTestSuite.java:45:	ClassNamingConventions:	The class name 'JavaScriptTestSuite' doesn't match '^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$'
+java/test/org/openqa/selenium/javascript/JavaScriptTestSuite.java:109:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/javascript/JavaScriptTestSuite.java:111:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/javascript/JavaScriptTestSuite.java:128:	MissingOverride:	The method 'close()' is missing an @Override annotation.
+java/test/org/openqa/selenium/javascript/TestFileLocator.java:36:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/json/JsonInputTest.java:315:	UnusedPrivateMethod:	Avoid unused private methods such as 'fromJson(JsonInput)'.
+java/test/org/openqa/selenium/json/JsonOutputTest.java:326:	UnusedPrivateMethod:	Avoid unused private methods such as 'toJson()'.
+java/test/org/openqa/selenium/json/JsonOutputTest.java:595:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Arrays': 'asList' is already in scope
+java/test/org/openqa/selenium/json/JsonOutputTest.java:631:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Arrays': 'asList' is already in scope
+java/test/org/openqa/selenium/json/JsonOutputTest.java:665:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Arrays': 'asList' is already in scope
+java/test/org/openqa/selenium/json/JsonOutputTest.java:805:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/json/JsonOutputTest.java:821:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/json/JsonOutputTest.java:827:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/json/JsonOutputTest.java:838:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/json/JsonOutputTest.java:842:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+java/test/org/openqa/selenium/json/JsonTest.java:287:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/json/JsonTest.java:576:	UnusedPrivateField:	Avoid unused private fields such as 'convertedValue'.
+java/test/org/openqa/selenium/json/JsonTest.java:582:	UnusedPrivateMethod:	Avoid unused private methods such as 'fromJson(String)'.
+java/test/org/openqa/selenium/json/JsonTest.java:591:	UnusedPrivateMethod:	Avoid unused private methods such as 'fromJson(Map<String, Object>)'.
+java/test/org/openqa/selenium/logging/LoggingTest.java:52:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Level': 'ALL' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/logging/LoggingTest.java:55:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Level': 'ALL' is already in scope because it is imported in this file
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:31:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:32:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:40:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:47:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:54:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:61:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:62:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:69:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:70:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:77:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:83:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:84:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:90:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/NetworkUtilsTest.java:91:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/PortProberTest.java:33:	MethodNamingConventions:	The JUnit 5 test method name 'checkPortIsFree_checksIpv4Localhost' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/net/PortProberTest.java:41:	MethodNamingConventions:	The JUnit 5 test method name 'checkPortIsFree_checksIpv4AllInterfaces' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/net/PortProberTest.java:43:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/PortProberTest.java:49:	MethodNamingConventions:	The JUnit 5 test method name 'checkPortIsFree_checksIpv6AllInterfaces' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:32:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:70:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:74:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:78:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:86:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:96:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:97:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:102:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:115:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:116:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:117:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:123:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:135:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:136:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:137:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:142:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:157:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:161:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:169:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:179:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:180:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:183:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:184:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:188:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:192:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:194:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:213:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:214:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:214:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:217:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:218:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:244:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:247:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:248:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:249:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:250:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:265:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:266:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:290:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:294:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:313:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:313:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:314:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:326:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:326:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:334:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:334:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/StubNetworkInterfaceProvider.java:335:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/UrlsTest.java:50:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/net/UrlsTest.java:57:	AvoidUsingHardCodedIP:	Do not hard code the IP address ${variableName}
+java/test/org/openqa/selenium/netty/server/SimpleHttpServer.java:66:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/netty/server/SimpleHttpServer.java:206:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+java/test/org/openqa/selenium/netty/server/WebSocketServingTest.java:194:	UnusedPrivateField:	Avoid unused private fields such as 'sink'.
+java/test/org/openqa/selenium/os/CommandLineTest.java:129:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/os/CommandLineTest.java:167:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+java/test/org/openqa/selenium/os/Echo.java:23:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/os/OsProcessTest.java:97:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/remote/AugmenterTest.java:402:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/remote/AugmenterTest.java:410:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/remote/ProtocolHandshakeTest.java:147:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+java/test/org/openqa/selenium/remote/RemoteWebDriverUnitTest.java:382:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Collections': 'singletonMap' is already in scope
+java/test/org/openqa/selenium/remote/RemoteWebDriverUnitTest.java:714:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/remote/RemoteWebDriverUnitTest.java:740:	LooseCoupling:	Avoid using implementation types like 'ImmutableMap'; use the interface instead
+java/test/org/openqa/selenium/remote/WebElementToJsonConverterTest.java:67:	MethodNamingConventions:	The JUnit 5 test method name 'unwrapsWrappedElements_multipleLevelsOfWrapping' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/remote/WebElementToJsonConverterTest.java:90:	MethodNamingConventions:	The JUnit 5 test method name 'convertsNestedCollections_simpleValues' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/remote/internal/HttpClientTestBase.java:64:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/remote/internal/HttpClientTestBase.java:188:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+java/test/org/openqa/selenium/remote/internal/HttpClientTestBase.java:202:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/remote/tracing/DefaultTestTracer.java:25:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:469:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:474:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:500:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:505:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:607:	UnusedLocalVariable:	Avoid unused local variables such as 'span'.
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:627:	EmptyControlStatement:	Empty try-with-resources statement. Rename the resource to `ignored`, `unused` or `_` (Java 22+).
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:627:	UnusedLocalVariable:	Avoid unused local variables such as 'child'.
+java/test/org/openqa/selenium/remote/tracing/opentelemetry/TracerTest.java:640:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/safari/SafariDriverServiceTest.java:36:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/safari/SafariDriverTest.java:43:	SingularField:	Perhaps 'service' could be replaced by a local variable.
+java/test/org/openqa/selenium/safari/SafariTechPreviewDriverServiceTest.java:36:	UnusedLocalVariable:	Avoid unused local variables such as 'exe'.
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:39:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:40:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:41:	SingularField:	Perhaps 'originalSwitch' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:67:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:73:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedAlertTest.java:73:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:38:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:39:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:61:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:61:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:67:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedNavigationTest.java:67:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:52:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:63:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:73:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:73:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:78:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:78:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:83:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:83:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:100:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:100:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:124:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedOptionsTest.java:125:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:42:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:61:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:78:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:88:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:88:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:93:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:93:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:98:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:98:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:103:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:103:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:109:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedSwitchToTest.java:109:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:38:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:39:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:40:	SingularField:	Perhaps 'originalOptions' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:64:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:64:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:69:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:69:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:74:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:74:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:79:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:79:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:84:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:84:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:89:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedTimeoutsTest.java:89:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:45:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:46:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:74:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:86:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:86:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:96:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:96:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:101:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:101:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:111:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedVirtualAuthenticatorTest.java:111:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:57:	SingularField:	Perhaps 'originalAuth' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:123:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:133:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:164:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:164:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:172:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:172:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:173:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:173:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:205:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:205:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:291:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:291:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:298:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:298:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:305:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:305:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:312:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:312:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:319:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:319:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:324:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:324:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:329:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:329:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:335:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:335:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:341:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebDriverTest.java:341:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:49:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:81:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:91:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:111:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:111:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:126:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:126:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:131:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:131:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:136:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:136:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:182:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:182:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:217:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:217:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:222:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWebElementTest.java:222:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:40:	SingularField:	Perhaps 'originalDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:41:	SingularField:	Perhaps 'decoratedDriver' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:42:	SingularField:	Perhaps 'originalOptions' could be replaced by a local variable.
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:68:	UnusedLocalVariable:	Avoid unused local variables such as 'ignore'.
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:74:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:74:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:79:	AvoidDollarSigns:	Avoid using dollar signs in variable/method/class/interface names
+java/test/org/openqa/selenium/support/decorators/DecoratedWindowTest.java:79:	FormalParameterNamingConventions:	The lambda parameter name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:61:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:91:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:94:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:295:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:298:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:561:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/events/EventFiringDecoratorTest.java:565:	UncommentedEmptyMethodBody:	Document empty method body
+java/test/org/openqa/selenium/support/pagefactory/AjaxElementLocatorTest.java:156:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/pagefactory/AnnotationsTest.java:105:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+java/test/org/openqa/selenium/support/pagefactory/ByChainedTest.java:259:	MethodNamingConventions:	The JUnit 5 test method name 'findElementsThreeBy_firstFindsOne_secondEmpty' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/pagefactory/ByChainedTest.java:277:	MethodNamingConventions:	The JUnit 5 test method name 'findElementThreeBy_firstFindsTwo_secondEmpty' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/pagefactory/DefaultElementLocatorTest.java:210:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/pagefactory/DefaultFieldDecoratorTest.java:172:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:110:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForUrlToBeOpened_urlToBe' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:118:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForUrlToBeOpened_urlContains' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:126:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForUrlToBeOpened_urlMatches' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:134:	MethodNamingConventions:	The JUnit 5 test method name 'negative_waitingForUrlToBeOpened_urlToBe' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:143:	MethodNamingConventions:	The JUnit 5 test method name 'negative_waitingForUrlToBeOpened_urlContains' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:152:	MethodNamingConventions:	The JUnit 5 test method name 'negative_waitingForUrlToBeOpened_urlMatches' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:161:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForVisibilityOfElement_elementAlreadyVisible' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:169:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForVisibilityOfElement_elementBecomesVisible' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:177:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForVisibilityOfElement_elementNeverBecomesVisible' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:188:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForVisibilityOfElementInverse_elementNotVisible' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:203:	MethodNamingConventions:	The JUnit 5 test method name 'waitingForVisibilityOfElementInverse_elementStaysVisible' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:236:	MethodNamingConventions:	The JUnit 5 test method name 'doubleNegatives_conditionThatReturnsFalseTimesOut' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:243:	MethodNamingConventions:	The JUnit 5 test method name 'doubleNegatives_conditionThatReturnsNull' doesn't match '[a-z][a-zA-Z0-9]*'
+java/test/org/openqa/selenium/support/ui/ExpectedConditionsTest.java:752:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Pattern': 'compile' is already in scope
+java/test/org/openqa/selenium/support/ui/FluentWaitTest.java:267:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/ui/LoadableComponentTest.java:49:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/ui/SlowLoadableComponentTest.java:170:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/support/ui/SlowLoadableComponentTest.java:170:	DoNotExtendJavaLangError:	Exceptions should not extend java.lang.Error
+java/test/org/openqa/selenium/testing/CaptureLoggingRule.java:91:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/testing/CaptureLoggingRule.java:116:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/testing/Ignore.java:34:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/IgnoreComparator.java:55:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/IgnoreComparator.java:56:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/IgnoreComparator.java:69:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {thenBranch};`
+java/test/org/openqa/selenium/testing/IgnoreComparator.java:86:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/IgnoreComparatorUnitTest.java:116:	UnusedFormalParameter:	Avoid unused method parameters such as 'platforms'.
+java/test/org/openqa/selenium/testing/IgnoreComparatorUnitTest.java:119:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+java/test/org/openqa/selenium/testing/NeedsFreshDriver.java:32:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/NoDriverAfterTest.java:37:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/NoDriverBeforeTest.java:36:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/NotYetImplemented.java:34:	UselessParentheses:	Useless parentheses.
+java/test/org/openqa/selenium/testing/Safely.java:30:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/testing/Safely.java:58:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/SeleniumExtension.java:98:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/SeleniumExtension.java:109:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/SeleniumExtension.java:115:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/SeleniumExtension.java:131:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/SeleniumExtension.java:255:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/StaticResources.java:30:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/testing/TestUtilities.java:33:	UseUtilityClass:	This utility class has a non-private constructor
+java/test/org/openqa/selenium/testing/TestUtilities.java:38:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+java/test/org/openqa/selenium/testing/drivers/Browser.java:197:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Browser': 'ALL' is already in scope because it is declared in an enclosing type
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:80:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:99:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:119:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:134:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:147:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/ExternalDriverSupplier.java:160:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+java/test/org/openqa/selenium/testing/drivers/GridSupplier.java:44:	UnusedPrivateField:	Avoid unused private fields such as 'node'.
+java/test/org/openqa/selenium/testing/drivers/GridSupplier.java:45:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/testing/drivers/OutOfProcessSeleniumServer.java:127:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/OutOfProcessSeleniumServer.java:132:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/OutOfProcessSeleniumServer.java:136:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/OutOfProcessSeleniumServer.java:138:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+java/test/org/openqa/selenium/testing/drivers/OutOfProcessSeleniumServer.java:178:	EmptyCatchBlock:	Avoid empty catch blocks
+java/test/org/openqa/selenium/testing/drivers/RemoteSupplier.java:32:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+java/test/org/openqa/selenium/testing/drivers/WebDriverBuilder.java:36:	LooseCoupling:	Avoid using implementation types like 'LinkedList'; use the interface instead
+java/test/org/openqa/selenium/testing/drivers/WebDriverBuilder.java:44:	UnusedPrivateField:	Avoid unused private fields such as 'toBuild'.
+java/test/org/openqa/selenium/testing/drivers/WebDriverBuilder.java:97:	EmptyCatchBlock:	Avoid empty catch blocks
